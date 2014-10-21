@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.source_files   = 'Classes/**/*.h'
   s.preserve_paths = 'Classes/**/*.a'
-  s.library    = 'AdapterAdColony'
+  s.library    = 'AdapterSDKAdColony'
   s.xcconfig   =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/AdMobMediationAdapterAdColony/Classes"' }
   
   
